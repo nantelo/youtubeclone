@@ -1,0 +1,119 @@
+
+.ytheader{
+    height: 55px; 
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border-bottom-width:1px;
+    border-bottom-color: rgba(229, 223, 223, 0.916);
+    border-bottom-style: solid;
+
+
+}
+.leftheader{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+width: 150px;
+margin-left: 23px;
+}
+.middleheader{
+    display: flex;
+    justify-content: center;
+align-items: center;
+flex-shrink: 0;
+
+
+
+}
+.rightheader{
+    display: flex;
+    justify-content: space-between;
+align-items: center;
+width: 200px;
+flex-shrink: 0;
+margin-right: 20px;
+
+}
+.txtbar{
+    border-radius: 2px;
+    
+    height: 36px;
+    border:solid rgba(105, 101, 101, 0.836);
+    font-family: Arial;
+    box-shadow: inset 1px 2px 2px rgba(199, 196, 196, 0.544);
+    padding-left: 12px;
+    
+    width: 250px;;
+    
+    
+    
+}
+.txtbar::placeholder{
+    font-family: arial;
+    font-size: 16px;
+}
+.srcbutton{
+width: 60px;
+height: 42px;
+position: relative;
+border-width: 1px;
+margin-left: -1px;
+margin-right: 10px
+
+
+}
+.srcbutton .src-hover{
+    position: absolute;
+    bottom:-30px;
+    background-color: rgb(60, 59, 59);
+    color: white;
+    padding: 5px;
+    
+    opacity:0;
+    transition: opacity 0.15s;
+    pointer-events: none;
+   
+    
+}
+.srcbutton:hover .src-hover {
+   
+    opacity: 1;
+}
+.srcbutton1 .voice-hover{
+    position: absolute;
+    background-color:rgb(60, 59, 59); 
+    padding: 5px;
+    bottom: -23px;
+    opacity: 0;
+    color: white;
+    pointer-events:none;
+
+}
+.srcbutton1:hover .voice-hover{
+    opacity: 1;
+}
+
+
+
+.middle1{
+height: 25px;
+margin-top: 5px;
+}
+.srcbutton1{
+width: 40px;
+height: 40px;
+border: none;
+border-radius: 20px;
+}
+.middle2{
+    
+
+
+}

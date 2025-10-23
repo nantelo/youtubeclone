@@ -1,0 +1,40 @@
+.sidebar{
+    position: fixed;
+    top: 55px;
+    left: 0;
+    bottom: 0;
+    background-color: white;
+    width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    
+    border-right-style: solid;
+    border-right-color:rgba(229, 223, 223, 0.916);
+    
+
+}
+
+    
+    
+
+.barsrc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.barsrc:hover{
+    background-color: beige;
+    cursor: pointer;
+}
+.barsrc img{
+    height: 24px;
+}
+.barsrc div{
+    font-size: 10px;
+  
+}
+
